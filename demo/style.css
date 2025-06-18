@@ -1,0 +1,17 @@
+.bruh{
+    height: 100px;
+    border: 1px solid #d6c08d;
+    background-color: #f0e6c2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.hide{
+    display: none;
+}

@@ -1,0 +1,108 @@
+@media only screen and (max-width: 768px) {
+  .topnav .name {
+    display: none !important;
+  }
+  .topnav a {
+    display: block;
+    text-align: start;
+    padding: 0px 16px;
+    line-height: 250%;
+    height: 40px;
+    width: 100%;
+  }
+  .topnav i {
+    display: inline-block;
+    height: 80%;
+  }
+  #target {
+    margin: 50px auto 5% 5%;
+    text-align: left;
+    width: 80%;
+    height: 300px;
+  }
+  #infomation {
+    margin: 50px auto 5% 5%;
+    text-align: left;
+    width: 300px;
+  }
+  #info-target {
+    grid-template-columns: 1fr;
+  }
+  .other-info {
+    grid-template-columns: 1fr;
+    height: auto;
+  }
+  .item-content h4 {
+    font-size: 1em !important;
+    font-weight: 600 !important;
+  }
+  .item-content p {
+    font-size: 0.9em !important;
+    font-weight: 400 !important;
+  }
+  .content-top {
+    margin: 0 !important;
+    grid-template-columns: 1fr !important;
+    border: 0px !important;
+  }
+
+  .second-item {
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0px !important;
+  }
+  .content-bottom {
+    display: grid;
+    grid-template-columns: 1fr !important;
+    padding: 0px !important;
+    margin: 0px !important;
+    padding-bottom: 40px !important;
+  }
+  .certificate .content-item {
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    grid-template-columns: 1fr !important;
+    width: 90% !important;
+    margin: 10px auto !important;
+    border-bottom: 2px solid #d6c08d !important;
+  }
+  .certificate .content-item img {
+    width: 100% !important;
+    height: auto !important;
+    margin: 5px auto !important;
+    padding: 0px;
+  }
+  .item-content {
+    width: 100% !important;
+    margin: 0px auto !important;
+    padding: 0px !important;
+  }
+  .project .content {
+    display: grid;
+    grid-template-columns: 1fr !important;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 2190px !important;
+  }
+  .project-title {
+    height: 30px;
+  }
+  .project-title h5 {
+    font-size: 0.9em !important;
+    line-height: 3px;
+  }
+  .item {
+    height: 710px !important;
+  }
+  .facebook::after {
+    content: "";
+  }
+  .linkedin::after {
+    content: "";
+  }
+  .github::after {
+    content: "";
+  }
+}
